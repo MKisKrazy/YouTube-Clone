@@ -77,7 +77,7 @@ justify-content: space-between;
 }
 .current-user-pfp{
     height: 30px;
-    weight:30px;
+    width:30px;
     object-fit: cover;
     border: none;
     border-radius: 50px;
