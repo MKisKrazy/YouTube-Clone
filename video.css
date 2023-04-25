@@ -62,3 +62,12 @@ border-radius: 2px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+@media (width>1000px) {
+    .vid_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .video-info{
+        font-size: 14px;
+    }
+}
