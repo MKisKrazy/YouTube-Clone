@@ -71,3 +71,35 @@ border-radius: 2px;
         font-size: 14px;
     }
 }
+ .tooltip2{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    bottom: -30px;
+    left: 4px;
+    font-family: Roboto;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    width: 180px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    align-items: center;
+    z-index: 300;
+    pointer-events: none;
+   
+}
+
+.channel-tooltip-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 8px;
+  }
+.channel-pfp:hover .tooltip2{
+    opacity: 1;
+}
+.channel-pfp {
+    position: relative;
+    display: inline-block;
+  }
