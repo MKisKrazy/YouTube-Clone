@@ -19,13 +19,8 @@ a{
 }
 @media (min-width:1200.1px){
     body{
-        margin: 0;
-        padding-top: 70px;
-        padding-left:160px;
-        padding-right: 25px;
-        background-color: rgb(247, 247, 247);
-        font-family: 'Roboto', sans-serif;
-        height: 3000px;
         
+        padding-left:160px;
+      
     }
 }
