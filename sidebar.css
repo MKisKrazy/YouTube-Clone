@@ -36,29 +36,34 @@
         left: 0;
         bottom: 0;
         top: 55px;
-        width: 200px;
+        width: 150px;
         z-index: 200;
         background-color: white;
         padding-top: 5px;
+        justify-content: space-between;
     }
     .sidebar-link{
         height: 30px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        
         flex-direction: row;
         cursor: pointer;
+        margin-bottom: 10px;
+        
     }
     .sidebar-link:hover{
         background-color: rgb(234, 234, 234);
     }
     .sidebar-link img{
-        height: 25px;
+        height: 20px;
         margin-bottom: 4px;
+        padding-left: 20px;
+        
     }
     .sidebar-link div{
         font-size: 10px;
-        
+        padding-left: 20px;
        
     }
     
