@@ -36,7 +36,7 @@
         left: 0;
         bottom: 0;
         top: 55px;
-        width: 90px;
+        width: 120px;
         z-index: 200;
         background-color: white;
         padding-top: 5px;
@@ -58,7 +58,7 @@
     }
     .sidebar-link div{
         font-size: 10px;
-        padding-left: 5px;
+        
        
     }
     
